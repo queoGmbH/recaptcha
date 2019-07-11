@@ -2,18 +2,18 @@
     "name": "queoGmbH/recaptcha",
     "description": "reCAPTCHA v2 class",
     "keywords": ["recaptcha", "captcha", "google"],
-    "homepage": "https://github.com/shevabam/recaptcha",
+    "homepage": "https://github.com/queoGmbH/recaptcha",
     "authors": [
         {
             "name": "ShevAbam"
         }
     ],
     "support": {
-        "issues": "https://github.com/shevabam/recaptcha/issues",
-        "source": "https://github.com/shevabam/recaptcha/tree/master"
+        "issues": "https://github.com/queoGmbH/recaptcha/issues",
+        "source": "https://github.com/queoGmbH/recaptcha/tree/master"
     },
     "license": "GPL-2.0-only",
-    "version": "1.0.8",
+    "version": "1.0.10",
     "require": {
         "php": ">=5.3.0"
     },
