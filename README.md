@@ -14,7 +14,7 @@
 
 With Composer, add this line to your *require* section :
 
-	"phelium/recaptcha": "dev-master"
+	"queoGmbH/recaptcha": "dev-master"
 
 Then run `composer update`.
 
