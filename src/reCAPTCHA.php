@@ -16,7 +16,7 @@ class reCAPTCHA
      *
      * @var string
      */
-    const VERIFY_URL = 'https://www.google.com/recaptcha/api/siteverify';
+    const VERIFY_URL = 'https://www.recaptcha.net/recaptcha/api/siteverify';
 
     /**
      * Public key
@@ -237,7 +237,7 @@ class reCAPTCHA
         if (!is_null($this->language))
             $data = array('hl' => $this->language);
 
-        return '<script src="https://www.google.com/recaptcha/api.js?'.http_build_query($data).'"></script>';
+        return '<script src="https://www.recaptcha.net/recaptcha/api.js?'.http_build_query($data).'"></script>';
     }
 
     /**
